@@ -1,0 +1,5 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/BlocksKit" "${PODS_ROOT}/Headers/Public/Emitter" "${PODS_ROOT}/Headers/Public/GCDTimer" "${PODS_ROOT}/Headers/Public/Primus" "${PODS_ROOT}/Headers/Public/Reachability" "${PODS_ROOT}/Headers/Public/SocketRocket" "${PODS_ROOT}/Headers/Public/libextobjc" "${PODS_ROOT}/Headers/Public/socket.IO"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/BlocksKit" -isystem "${PODS_ROOT}/Headers/Public/Emitter" -isystem "${PODS_ROOT}/Headers/Public/GCDTimer" -isystem "${PODS_ROOT}/Headers/Public/Primus" -isystem "${PODS_ROOT}/Headers/Public/Reachability" -isystem "${PODS_ROOT}/Headers/Public/SocketRocket" -isystem "${PODS_ROOT}/Headers/Public/libextobjc" -isystem "${PODS_ROOT}/Headers/Public/socket.IO"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"BlocksKit" -l"Emitter" -l"GCDTimer" -l"Primus" -l"Reachability" -l"SocketRocket" -l"icucore" -l"libextobjc" -l"socket.IO" -framework "CFNetwork" -framework "Security" -framework "SystemConfiguration"
+PODS_ROOT = ${SRCROOT}/Pods

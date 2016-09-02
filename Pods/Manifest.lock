@@ -1,0 +1,34 @@
+PODS:
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - Emitter (0.0.9):
+    - BlocksKit/DynamicDelegate
+  - GCDTimer (1.1.0)
+  - libextobjc/EXTScope (0.4.1):
+    - libextobjc/RuntimeExtensions
+  - libextobjc/RuntimeExtensions (0.4.1)
+  - Primus (0.0.8):
+    - Emitter
+    - GCDTimer
+    - libextobjc/EXTScope
+    - Reachability
+  - Reachability (3.2)
+  - socket.IO (0.5.2):
+    - SocketRocket (~> 0.2)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - Primus
+  - socket.IO
+  - SocketRocket
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  Emitter: cf50bf44fc8817535018fbd6c4fd576b87803e78
+  GCDTimer: 5837a5d70a464f86cbc9c56d75efc68f7e7c2fb8
+  libextobjc: a650fc1bf489a3d3a9bc2e621efa3e1006fc5471
+  Primus: bd06a36e721ab850942b08cce4ce161c45376cf0
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  socket.IO: eaaaea33481d8a81d8f78e331f0c72ba44758036
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+COCOAPODS: 0.39.0
