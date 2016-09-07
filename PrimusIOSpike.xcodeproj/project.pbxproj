@@ -8,11 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8639295D8668D5FEABA7C416 /* libPods-PrimusIOSpike.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE759106D10915252325C541 /* libPods-PrimusIOSpike.a */; };
+		A201C2831D7E818E0052294F /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A201C2821D7E818E0052294F /* CoreDataHelper.m */; };
+		A201C2861D7E823B0052294F /* UIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A201C2851D7E823B0052294F /* UIKit.m */; };
+		A201C2891D7E824A0052294F /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = A201C2881D7E824A0052294F /* Helper.m */; };
+		A2034DA71D7E857400BEEE1F /* PrimusIOSpike.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2034DA51D7E857400BEEE1F /* PrimusIOSpike.xcdatamodeld */; };
+		A2034DB61D7E97B600BEEE1F /* PendingRequest+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A2034DAD1D7E97B600BEEE1F /* PendingRequest+CoreDataProperties.m */; };
+		A2034DB71D7E97B600BEEE1F /* PendingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A2034DAF1D7E97B600BEEE1F /* PendingRequest.m */; };
+		A2034DB81D7E97B600BEEE1F /* Item+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A2034DB11D7E97B600BEEE1F /* Item+CoreDataProperties.m */; };
+		A2034DB91D7E97B600BEEE1F /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = A2034DB31D7E97B600BEEE1F /* Item.m */; };
+		A290D7CE1D7EB1D50009D643 /* App+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A290D7CB1D7EB1D50009D643 /* App+CoreDataProperties.m */; };
+		A290D7CF1D7EB1D50009D643 /* App.m in Sources */ = {isa = PBXBuildFile; fileRef = A290D7CD1D7EB1D50009D643 /* App.m */; };
 		A2D48D481D7824460023B829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D48D471D7824460023B829 /* main.m */; };
 		A2D48D4B1D7824460023B829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D48D4A1D7824460023B829 /* AppDelegate.m */; };
 		A2D48D4E1D7824460023B829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D48D4D1D7824460023B829 /* ViewController.m */; };
 		A2D48D511D7824460023B829 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D48D4F1D7824460023B829 /* Main.storyboard */; };
-		A2D48D541D7824460023B829 /* PrimusIOSpike.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A2D48D521D7824460023B829 /* PrimusIOSpike.xcdatamodeld */; };
 		A2D48D561D7824460023B829 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D48D551D7824460023B829 /* Assets.xcassets */; };
 		A2D48D591D7824460023B829 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D48D571D7824460023B829 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,6 +29,25 @@
 /* Begin PBXFileReference section */
 		052A3E253944756ED97C3B8C /* Pods-PrimusIOSpike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimusIOSpike.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrimusIOSpike/Pods-PrimusIOSpike.release.xcconfig"; sourceTree = "<group>"; };
 		94DEAB14D69916E0A54E0B1A /* Pods-PrimusIOSpike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrimusIOSpike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrimusIOSpike/Pods-PrimusIOSpike.debug.xcconfig"; sourceTree = "<group>"; };
+		A201C2811D7E818E0052294F /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		A201C2821D7E818E0052294F /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		A201C2841D7E823B0052294F /* UIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKit.h; sourceTree = "<group>"; };
+		A201C2851D7E823B0052294F /* UIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKit.m; sourceTree = "<group>"; };
+		A201C2871D7E824A0052294F /* Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		A201C2881D7E824A0052294F /* Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		A2034DA61D7E857400BEEE1F /* PrimusIOSpike.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrimusIOSpike.xcdatamodel; sourceTree = "<group>"; };
+		A2034DAC1D7E97B600BEEE1F /* PendingRequest+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PendingRequest+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A2034DAD1D7E97B600BEEE1F /* PendingRequest+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PendingRequest+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A2034DAE1D7E97B600BEEE1F /* PendingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PendingRequest.h; sourceTree = "<group>"; };
+		A2034DAF1D7E97B600BEEE1F /* PendingRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PendingRequest.m; sourceTree = "<group>"; };
+		A2034DB01D7E97B600BEEE1F /* Item+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Item+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A2034DB11D7E97B600BEEE1F /* Item+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Item+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A2034DB21D7E97B600BEEE1F /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		A2034DB31D7E97B600BEEE1F /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		A290D7CA1D7EB1D50009D643 /* App+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "App+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A290D7CB1D7EB1D50009D643 /* App+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "App+CoreDataProperties.m"; sourceTree = "<group>"; };
+		A290D7CC1D7EB1D50009D643 /* App.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App.h; sourceTree = "<group>"; };
+		A290D7CD1D7EB1D50009D643 /* App.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = App.m; sourceTree = "<group>"; };
 		A2D48D431D7824460023B829 /* PrimusIOSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimusIOSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2D48D471D7824460023B829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2D48D491D7824460023B829 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,7 +55,6 @@
 		A2D48D4C1D7824460023B829 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A2D48D4D1D7824460023B829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A2D48D501D7824460023B829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A2D48D531D7824460023B829 /* PrimusIOSpike.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrimusIOSpike.xcdatamodel; sourceTree = "<group>"; };
 		A2D48D551D7824460023B829 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2D48D581D7824460023B829 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2D48D5A1D7824460023B829 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -63,6 +90,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A201C28A1D7E834E0052294F /* models */ = {
+			isa = PBXGroup;
+			children = (
+				A2034DAC1D7E97B600BEEE1F /* PendingRequest+CoreDataProperties.h */,
+				A2034DAD1D7E97B600BEEE1F /* PendingRequest+CoreDataProperties.m */,
+				A2034DAE1D7E97B600BEEE1F /* PendingRequest.h */,
+				A2034DAF1D7E97B600BEEE1F /* PendingRequest.m */,
+				A2034DB01D7E97B600BEEE1F /* Item+CoreDataProperties.h */,
+				A2034DB11D7E97B600BEEE1F /* Item+CoreDataProperties.m */,
+				A2034DB21D7E97B600BEEE1F /* Item.h */,
+				A2034DB31D7E97B600BEEE1F /* Item.m */,
+				A290D7CA1D7EB1D50009D643 /* App+CoreDataProperties.h */,
+				A290D7CB1D7EB1D50009D643 /* App+CoreDataProperties.m */,
+				A290D7CC1D7EB1D50009D643 /* App.h */,
+				A290D7CD1D7EB1D50009D643 /* App.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
 		A2D48D3A1D7824460023B829 = {
 			isa = PBXGroup;
 			children = (
@@ -84,15 +130,18 @@
 		A2D48D451D7824460023B829 /* PrimusIOSpike */ = {
 			isa = PBXGroup;
 			children = (
+				A201C28A1D7E834E0052294F /* models */,
 				A2D48D491D7824460023B829 /* AppDelegate.h */,
 				A2D48D4A1D7824460023B829 /* AppDelegate.m */,
+				A201C2811D7E818E0052294F /* CoreDataHelper.h */,
+				A201C2821D7E818E0052294F /* CoreDataHelper.m */,
 				A2D48D4C1D7824460023B829 /* ViewController.h */,
 				A2D48D4D1D7824460023B829 /* ViewController.m */,
 				A2D48D4F1D7824460023B829 /* Main.storyboard */,
 				A2D48D551D7824460023B829 /* Assets.xcassets */,
 				A2D48D571D7824460023B829 /* LaunchScreen.storyboard */,
+				A2034DA51D7E857400BEEE1F /* PrimusIOSpike.xcdatamodeld */,
 				A2D48D5A1D7824460023B829 /* Info.plist */,
-				A2D48D521D7824460023B829 /* PrimusIOSpike.xcdatamodeld */,
 				A2D48D461D7824460023B829 /* Supporting Files */,
 			);
 			path = PrimusIOSpike;
@@ -102,6 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				A2D48D471D7824460023B829 /* main.m */,
+				A201C2841D7E823B0052294F /* UIKit.h */,
+				A201C2851D7E823B0052294F /* UIKit.m */,
+				A201C2871D7E824A0052294F /* Helper.h */,
+				A201C2881D7E824A0052294F /* Helper.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -226,9 +279,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2034DB91D7E97B600BEEE1F /* Item.m in Sources */,
+				A2034DB71D7E97B600BEEE1F /* PendingRequest.m in Sources */,
+				A201C2861D7E823B0052294F /* UIKit.m in Sources */,
+				A290D7CE1D7EB1D50009D643 /* App+CoreDataProperties.m in Sources */,
+				A290D7CF1D7EB1D50009D643 /* App.m in Sources */,
 				A2D48D4E1D7824460023B829 /* ViewController.m in Sources */,
 				A2D48D4B1D7824460023B829 /* AppDelegate.m in Sources */,
-				A2D48D541D7824460023B829 /* PrimusIOSpike.xcdatamodeld in Sources */,
+				A2034DB61D7E97B600BEEE1F /* PendingRequest+CoreDataProperties.m in Sources */,
+				A2034DB81D7E97B600BEEE1F /* Item+CoreDataProperties.m in Sources */,
+				A201C2891D7E824A0052294F /* Helper.m in Sources */,
+				A201C2831D7E818E0052294F /* CoreDataHelper.m in Sources */,
+				A2034DA71D7E857400BEEE1F /* PrimusIOSpike.xcdatamodeld in Sources */,
 				A2D48D481D7824460023B829 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,12 +449,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		A2D48D521D7824460023B829 /* PrimusIOSpike.xcdatamodeld */ = {
+		A2034DA51D7E857400BEEE1F /* PrimusIOSpike.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				A2D48D531D7824460023B829 /* PrimusIOSpike.xcdatamodel */,
+				A2034DA61D7E857400BEEE1F /* PrimusIOSpike.xcdatamodel */,
 			);
-			currentVersion = A2D48D531D7824460023B829 /* PrimusIOSpike.xcdatamodel */;
+			currentVersion = A2034DA61D7E857400BEEE1F /* PrimusIOSpike.xcdatamodel */;
 			path = PrimusIOSpike.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

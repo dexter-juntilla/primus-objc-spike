@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '48AA68548D5ECA35BB4A56AA'
+               BlueprintIdentifier = '66D10217A66696B92AA816F7'
                BlueprintName = 'GCDTimer'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libGCDTimer.a'>

@@ -5,5 +5,6 @@ target 'PrimusIOSpike' do
 pod 'Primus'
 pod 'SocketRocket'
 pod 'socket.IO'
+pod 'AFNetworking', '~> 3.0'
 end
 

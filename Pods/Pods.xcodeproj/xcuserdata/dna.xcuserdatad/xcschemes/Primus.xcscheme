@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C9F2F8FCDDF7B79459C41543'
+               BlueprintIdentifier = '97713E7A70961EF8823264EB'
                BlueprintName = 'Primus'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPrimus.a'>

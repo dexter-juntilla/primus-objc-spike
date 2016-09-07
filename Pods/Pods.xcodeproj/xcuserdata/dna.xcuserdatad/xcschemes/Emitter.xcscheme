@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '4358D561AAF956EA4E53C53F'
+               BlueprintIdentifier = 'E4CAB1B1A38264C31592AEBE'
                BlueprintName = 'Emitter'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libEmitter.a'>
